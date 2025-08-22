@@ -1,0 +1,45 @@
+main{
+    background-color: blueviolet;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main > div{
+    background-color: rgb(43, 226, 131);
+   max-width: 342px;
+   width: 100%;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 25px;
+
+}
+ form{
+   /* background-color: brown;*/
+ }
+
+ #secao-cadastro{
+    background-color: aqua;
+ }
+
+ .estilo-formulario{
+    background-color: var(--cor-branco);
+    border: var(--borda);
+    width: 100%;
+ }
+
+ main > div > p {
+    background-color: blue;
+ }
+
+ #secao-instalacao{
+    background-color: green;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+ }

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Khmer&display=swap');
+
+@font-face {
+    font-family: khmer;
+    src: url(../assets/fonts/Ledger/);
+    src: url(../assets/fonts/Ledger/Ledger-Regular.ttf);
+}
+
+:root{
+    --cor-branco: #ffffff;
+    --cor-roxo: #423158;
+    --cor-roxoClaro: #CFAFEB;
+    --cor-roxo2: #724D93;
+    --cor-roxo3: #81628D;
+    --cor-cinza: #C4C0C4;
+    --cor-preto: #000000;
+
+    --borda: 1px solid var(var(--cor-roxo));
+    --borda-arredondada: 2px;
+
+    --tamanho-fonte-lg: 20px;
+    --tamanho-fonte-md: 16px;
+    --tamanho-fonte-sm: 14px;
+
+}
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: "Ledger", serif;
+}
+
+body{
+    background-color:var(--cor-cinza) ;
+}
+
+h1{
+position: absolute;
+z-index: -1;
+opacity: 0;
+
+}
