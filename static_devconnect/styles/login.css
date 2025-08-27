@@ -1,45 +1,91 @@
-main{
-    background-color: blueviolet;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-main > div{
-    background-color: rgb(43, 226, 131);
-   max-width: 342px;
+main {
+   min-height: 100vh;
    width: 100%;
-   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+main>div {
+
+   width: 90%;
    display: flex;
    flex-direction: column;
    align-items: center;
-   gap: 25px;
+   gap: 15px;
 
 }
- form{
-   /* background-color: brown;*/
- }
 
- #secao-cadastro{
-    background-color: aqua;
- }
+form {
+   background-color: var(--cor-branco);
+   display: flex;
+   /*ativa o flex*/
+   flex-direction: column;
+   justify-content: space-between;
+   /*alinha na direcao do flex*/
+   align-items: center;
+   gap: 15px;
+   /*espaço entre linhas e colunas*/
+   padding: 3%;
+}
 
- .estilo-formulario{
-    background-color: var(--cor-branco);
-    border: var(--borda);
-    width: 100%;
- }
+.formulario-campos {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   gap: 10px;
+}
 
- main > div > p {
-    background-color: blue;
- }
+.formulario-botao-roxo {
+   width: 100%;
+}
 
- #secao-instalacao{
-    background-color: green;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
- }
+form>p {
+   text-transform: uppercase;
+   font-size: var(--tamano-fonte-sm);
+   color: var(--cor-cinza);
+}
+
+form>a,
+#secao-cadastro>p>a {
+   color: var(--cor-roxoClaro);
+   font-size: var(--tamano-fonte-sm);
+   text-decoration: none;
+}
+
+#secao-cadastro>p {
+   color: var(--cor-preto);
+   font-size: var(--tamano-fonte-md);
+}
+
+   .estilo-formulario {
+      background-color: var(--cor-branco);
+      border: var(--borda);
+      width: 100%;
+      max-width: 342px;
+   }
+
+
+#secao-cadastro {
+   height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+main>div>p {
+   color: var(--cor-preto);
+   font-size: var(--tamano-fonte-sm);
+}
+
+
+
+#secao-instalacao {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 10px;
+}

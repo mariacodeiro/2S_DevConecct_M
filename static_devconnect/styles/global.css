@@ -6,7 +6,7 @@
     src: url(../assets/fonts/Ledger/Ledger-Regular.ttf);
 }
 
-:root{
+:root {
     --cor-branco: #ffffff;
     --cor-roxo: #423158;
     --cor-roxoClaro: #CFAFEB;
@@ -24,20 +24,49 @@
 
 }
 
-*{
-   padding: 0;
-   margin: 0;
-   box-sizing: border-box;
-   font-family: "Ledger", serif;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Ledger", serif;
 }
 
-body{
-    background-color:var(--cor-cinza) ;
+body {
+    background-color: var(--cor-cinza);
 }
 
-h1{
-position: absolute;
-z-index: -1;
-opacity: 0;
+h1 {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
 
+}
+
+/*formulario*/
+
+.formulario-botao-roxo {
+    background-color: var(--cor-roxo3);
+    border-radius: var(--borda-arredondada);
+    border: none;
+    height: 35px;
+
+    color: var(--cor-branco);
+    font-size: var(--tamanho-fonte-sm);
+
+}
+
+.formulario-campos>input {
+    border: var(--borda);
+    height: 35px;
+    background-color: var(--cor-cinza);
+
+    color: var(--cor-preto);
+    font-size: var(--tamanho-fonte-sm);
+    border-radius: var(--borda-arredondada);
+}
+
+.formulario-campos>label {
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-cinza);
+    font-weight: 600;
 }
