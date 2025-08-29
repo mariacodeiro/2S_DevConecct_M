@@ -58,10 +58,7 @@ form>a,
    font-size: var(--tamano-fonte-md);
 }
 
-   .estilo-formulario {
-      background-color: var(--cor-branco);
-      border: var(--borda);
-      width: 100%;
+   .estilo-formulario { 
       max-width: 342px;
    }
 

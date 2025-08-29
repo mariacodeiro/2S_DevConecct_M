@@ -58,9 +58,7 @@ main>div {
  }
  
     .estilo-formulario {
-       background-color: var(--cor-branco);
-       border: var(--borda);
-       width: 100%;
+      
        max-width: 342px;
     }
  
@@ -89,9 +87,6 @@ main>div {
     gap: 10px;
  }
 
-#campo-upload{
-    display: none;
-}
 
 label{
 display: inline-block;
