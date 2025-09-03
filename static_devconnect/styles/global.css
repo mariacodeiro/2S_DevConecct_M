@@ -29,6 +29,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Ledger", serif;
+    outline-color: var(--cor-roxo);
 }
 
 body {
@@ -85,10 +86,13 @@ h1 {
     display: inline-block;
     width: 100%;
     max-width: 300px;
-    padding: 10px;
+    min-height: 35px;
+    padding: 5px;
     background-color: var(--cor-cinza);
     color: var(--cor-preto);
     text-align: center;
+    border-radius: var(--borda-arredondada);
+    font-weight: 500px;
 }
 
 
@@ -98,6 +102,7 @@ h1 {
     height: 80px;
     display: flex;
     justify-content: center;
+    border-bottom: var(--borda);
 
 }
 
@@ -126,7 +131,7 @@ h1 {
     align-items: center;
 }
 
-#foto-perfil {
+.foto-perfil {
     width: 40px;
     height: 40px;
     object-fit: cover;
