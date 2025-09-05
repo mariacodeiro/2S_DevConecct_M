@@ -1,0 +1,51 @@
+main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#Perfil {
+  background-color: brown;
+  width: 90%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.perfil-container {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border-bottom: var(--borda);
+  padding-bottom: 20px;
+
+}
+
+.foto-perfil2 {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+#acoes-perfil {
+  width: 300px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+.info-perfil {
+  background-color: peachpuff;
+}
+
+.nome-usuario {
+  background-color: chartreuse;
+}

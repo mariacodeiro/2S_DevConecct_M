@@ -8,7 +8,7 @@ main {
 
 
 .container-flex-publi {
-    background-color: blueviolet;
+    background-color: white;
     /*height: 700px;*/
     width: 90%;
     max-width: 900px;
@@ -121,13 +121,13 @@ main {
 }
 
 #publicacoes{
-    background-color: aqua;
+    background-color: white;
     width: 100%;
    
 }
 
 .card-publi{
-    background-color: #FFFF;
+    background-color: white;
     width: 100%;
     height: 600px;
 
@@ -154,6 +154,7 @@ main {
 .card-publi>figure{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .imagem-publicacao{
