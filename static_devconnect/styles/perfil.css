@@ -1,51 +1,108 @@
 main {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-#Perfil {
-  background-color: brown;
-  width: 90%;
-  max-width: 900px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  background-color: var( --cor-cinza);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .perfil-container {
-  background-color: blueviolet;
   display: flex;
   justify-content: center;
-  gap: 30px;
-  border-bottom: var(--borda);
-  padding-bottom: 20px;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  border: var(--borda);
+}
+
+#foto-bio{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.info-perfil >h2 {
+ font-size: 1.5rem;
+ margin-bottom: 5px;
+}
+
+.info-perfil > p {
+color: aquamarine;
+margin-bottom: 10px;
 
 }
 
-.foto-perfil2 {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 50%;
+.nome-usuario > a{
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: 1px solid aqua;
+  border-radius: 5px;
+  color: blanchedalmond;
+  text-decoration: none;
+  font-size: 0.9rem;
 }
 
-#acoes-perfil {
-  width: 300px;
-  background-color: aqua;
+/*Publicacao*/
+.publicacoes{
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    padding: 20px;
+    background-color: var(--cor-cinza);
+    border: 1px solid var(--borda);
+    border-radius: 10px;
+}
+
+.publicacoes > h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.Postagem{
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--cor-cinza);
+
+}
+
+.Foto-publicacao{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+
+.foto-postagem{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.interacoes-publicacao{
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+
+.interacoes-publicacao > span{
   display: flex;
-  flex-direction: column;
-  gap: 15px;
-
+  align-items: center;
+  gap: 5px;
 }
 
-.info-perfil {
-  background-color: peachpuff;
-}
-
-.nome-usuario {
-  background-color: chartreuse;
+.Postagem > a{
+    text-decoration: none;
+    color: var(--cor-cinza);
+    font-size: var(--tamanho-fonte-sm);
 }
