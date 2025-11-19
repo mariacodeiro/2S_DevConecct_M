@@ -14,6 +14,7 @@ main {
   padding: 20px;
   gap: 20px;
   border: var(--borda);
+  margin: 10px 0;
 }
 
 #foto-bio{
@@ -51,9 +52,13 @@ margin-bottom: 10px;
     max-width: 600px;
     margin: 0 auto 50px auto;
     padding: 20px;
-    background-color: var(--cor-cinza);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    /* background-color: var(--cor-cinza);
     border: 1px solid var(--borda);
-    border-radius: 10px;
+    border-radius: 10px; */
 }
 
 .publicacoes > h3{
@@ -64,13 +69,16 @@ margin-bottom: 10px;
     margin-bottom: 20px;
 }
 
-.Postagem{
-    margin-bottom: 20px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid var(--cor-cinza);
+.postagem{
+    padding: 10px;
 
+    width: 100%;
+    border: 1px solid #8A38F5;
 }
-
+.postagem>button{
+    background-color: transparent;
+    border: none;
+}
 .Foto-publicacao{
     display: flex;
     align-items: center;

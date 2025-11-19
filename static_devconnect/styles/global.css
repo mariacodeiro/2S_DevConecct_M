@@ -15,7 +15,7 @@
     --cor-cinza: #C4C0C4;
     --cor-preto: #000000;
 
-    --borda: 1px solid var(var(--cor-roxo));
+    --borda: 1px solid var(--cor-roxo);
     --borda-arredondada: 2px;
 
     --tamanho-fonte-lg: 20px;
@@ -33,7 +33,7 @@
 }
 
 body {
-    background-color: var(--cor-cinza);
+    background-color: var(--cor-branco);
 }
 
 h1 {
@@ -113,7 +113,6 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: var(--borda);
 }
 
 #logo-mobile {
